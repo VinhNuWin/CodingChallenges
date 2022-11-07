@@ -1,5 +1,0 @@
-  // sum of odd numbers
-
-  rowSumOddNumbers(n){
-    return Math.pow(n,3);
-  }
