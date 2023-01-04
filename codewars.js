@@ -1,29 +1,14 @@
-// highest scoring word
-
-
-
-function high(s){
-
-  let as = s.split(' ').map(s=>[...s].reduce((a,b)=>a+b.charCodeAt(0)-96,0));
-
-  return s.split(' ')[as.indexOf(Math.max(...as))];
-
-}
-
-
-
-// highest profit wins
+// 7kyu-the-highest-profit-wins
 
 
 
 function minMax(arr) {
 
-    var a = arr.sort(function(a,b) {return a-b});
+  var a = arr.sort(function(a,b) {return a-b});
 
-    return [a[0], a[a.length-1]];
+  return [a[0], a[a.length-1]];
 
-  }
-
+}
 
 
 // build tower
@@ -388,3 +373,4 @@ function longestConsec(strarr, k) {
         return a.length > b.length ? a : a.length == b.length ? a : b;
     });
 }
+
