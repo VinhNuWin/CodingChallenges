@@ -11,7 +11,7 @@ function minMax(arr) {
 }
 
 
-// build tower
+// 6kyu-build-tower
 
 
 
@@ -21,7 +21,7 @@ function towerBuilder(nFloors) {
 
   var numSpaces = 0;
 
-  // Start from the reverse.
+  // 6kyu-build-tower
 
   for (i = nFloors; i > 0; i--) {
 
@@ -47,7 +47,7 @@ function towerBuilder(nFloors) {
 
 
 
-// write number in expanded form
+// 6kyu-write-number-in-expanded-form
 
 
 
@@ -79,7 +79,7 @@ function expandedForm(num) {
 
 
 
-// is he gonna survive
+// 8kyu-is-he-gonna-survive
 
 
 
@@ -101,7 +101,7 @@ return false
 
 
 
-// persistent bugger
+// 6kyu-persistent-bugger
 
 
 
@@ -129,7 +129,7 @@ function persistence(num) {
 
 
 
-// find the next perfect square
+// 7kyu-find-the-next-perfect-square
 
 
 
@@ -157,7 +157,7 @@ function findNextSquare(sq){
 
 
 
-// bouncing balls
+// 6kyu-bouncing-balls
 
 
 
@@ -189,7 +189,7 @@ function bouncingBall(h,  bounce,  window) {
 
 
 
-// tribonacci sequence
+// 6kyu-tribonacci-sequence
 
 
 
@@ -211,7 +211,7 @@ function tribonacci(signature,n) {
 
 
 
-// sort and star
+// 8kyu-sort-and-star
 
 
 
@@ -223,7 +223,7 @@ function twoSort(s) {
 
 
 
-// students final grade
+// 8kyu-students-final-grade
 
 
 
@@ -249,7 +249,7 @@ function finalGrade(exam, projects) {
 
 
 
-// array.diff
+// 6kyu-array.diff
 
 
 
@@ -261,7 +261,7 @@ function array_diff(a, b) {
 
 
 
-// counting sheeP
+// 8kyu-counting-sheep
 
 
 
@@ -275,7 +275,7 @@ function countSheeps(arrayOfSheep) {
 
 
 
-// are they the same 
+// 6kyu-are-they-the-same 
 
 
 
@@ -291,11 +291,11 @@ function comp(array1, array2) {
 
 
 
-// you only need one
+// 8kyu-you-only-need-one
 
 const check = (a,x) => a.includes(x);
 
-// what is between
+// 8kyu-what-is-between
 
 function between(a, b) {
   var list = [];
@@ -305,7 +305,7 @@ for (var i = a; i <= b; i++) {
   return list
 }
 
-// the supermarket queue
+// 6kyu-the-supermarket-queue
 
 function queueTime(customers, n) {
   // creates an array of length n representing the tills
@@ -322,7 +322,7 @@ function queueTime(customers, n) {
   return Math.max(...tills);
 }
 
-// your order, please
+// 6kyu-your-order-please
 
 function order(words){
   let arr = words.split(' ')
@@ -338,14 +338,14 @@ function order(words){
   return r.join(' ')
 }
 
-// Convert an array of strings to array of numbers
+// 7kyu-Convert-an-array-of-strings-to-array-of-numbers
 
 function toNumberArray(stringarray){
 
   return stringarray.map(parseFloat);
 }
 
-// break camelCase
+// 6kyu-break-camelCase
 
 function solution(string) {
   return string.replace(/[A-Z]/g, " $&");
@@ -354,7 +354,7 @@ function solution(string) {
 console.log('camelCasing: ', solution('camelCasing'));
 console.log('camelCasingTest: ', solution('camelCasingTest'));
 
-// Consecutive Strings
+// 6kyu-Consecutive-Strings
 
 function longestConsec(strarr, k) {
   let arrLength = strarr.length;
