@@ -1,19 +1,3 @@
-
-
-
-// 6kyu-tribonacci-sequence
-// 8kyu-sort-and-star
-
-
-
-function twoSort(s) {
-
-  return s.sort()[0].split('').join('***');
-
-}
-
-
-
 // 8kyu-students-final-grade
 
 
