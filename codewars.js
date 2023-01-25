@@ -1,17 +1,3 @@
-// 8kyu-counting-sheep
-
-
-
-function countSheeps(arrayOfSheep) {
-
-  const present = arrayOfSheep.filter(sheep => sheep);
-
-  return present.length;
-
-}
-
-
-
 // 6kyu-are-they-the-same 
 
 
