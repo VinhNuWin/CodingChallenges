@@ -1,8 +1,3 @@
-
-// 8kyu-you-only-need-one
-
-const check = (a,x) => a.includes(x);
-
 // 8kyu-what-is-between
 
 function between(a, b) {
