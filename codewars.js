@@ -1,12 +1,3 @@
-// 8kyu-what-is-between
-
-function between(a, b) {
-  var list = [];
-for (var i = a; i <= b; i++) {
-    list.push(i);
-}
-  return list
-}
 
 // 6kyu-the-supermarket-queue
 
