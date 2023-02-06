@@ -1,0 +1,61 @@
+//PREP
+
+//A number 1 to num, if 3 fizz, if 5 buzz, if 3&5 fizzbuzz
+
+function fizzBuzz(num) {
+    // For loop
+    for (let i = 1; 1 <= num; i++){
+        if (i % 3 === 0){
+            console.log('fizz');
+        }
+        else if (i % 5 === 0) {
+            console.log('buzz');
+        }
+        else if (i % 15 === 0) {
+            console.log('fizzBuzz');
+        }
+        else {
+            console.log(i);
+        }
+    }
+
+// while Loop
+let i = 0;
+
+while (i < 100) {
+    i++;
+
+    if(i % 15 === 0) {
+        console.log('FIZZBUZZ');
+    }
+    else if (i % 3 === 0) {
+        console.log('FIZZ');
+    }
+    else if (i % 5 === 0) {
+        console.log('BUZZ');
+    }
+    else {
+        console.log(i);
+    }
+};
+
+// do while loop
+let i = 1;
+
+do {
+    if (i % 15 === 0) {
+        console.log('FIZZBUZZ');
+    }
+    else if (i % 3 === 0) {
+        console.log('FIZZ');
+    }
+    else if (i % 5 === 0) {
+        console.log('BUZZ');
+    }
+    else {
+        console.log(i);
+    }
+    i++;
+}
+
+while (i < 101);
