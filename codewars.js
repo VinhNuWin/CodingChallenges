@@ -1,11 +1,4 @@
-// 6kyu-break-camelCase
 
-function solution(string) {
-  return string.replace(/[A-Z]/g, " $&");
-}
-
-console.log('camelCasing: ', solution('camelCasing'));
-console.log('camelCasingTest: ', solution('camelCasingTest'));
 
 // 6kyu-Consecutive-Strings
 

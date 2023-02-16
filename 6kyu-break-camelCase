@@ -1,0 +1,6 @@
+function solution(string) {
+  return string.replace(/[A-Z]/g, " $&");
+}
+
+console.log('camelCasing: ', solution('camelCasing'));
+console.log('camelCasingTest: ', solution('camelCasingTest'));
