@@ -1,11 +1,4 @@
-  //8kyu name shuffler
 
-  function nameShuffler(str) {
-    return str
-      .split(" ")
-      .reverse()
-      .join(" ");
-  }
 
   //8kyu All star code challenge #18
 
