@@ -1,9 +1,3 @@
-//8kyu-reverse-list-order
-
-function reverseList(list) {
-    return list.reverse();
-  }
-
 //6kyu-duplicate-encoder
 
 function duplicateEncode(word) {
