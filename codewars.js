@@ -1,22 +1,3 @@
-//6kyu two sum
-
-function twoSum(numbers, target) {
-    for (let i = 0; i < numbers.length; i++) {
-      for (let j = i + 1; j < numbers.length; j++) {
-        if (numbers[i] + numbers[j] === target) return [i, j];
-      }
-    }
-  }
-
-  //8kyu drink about
-
-  function peopleWithAgeDrink(old) {
-    if (old>=21)return "drink whisky";
-    if (old<14)return"drink toddy"
-    if (old<18)return"drink coke"
-    if (old<21)return"drink beer"
-  };
-
   //8kyu multiplication table for number
 
   function multiTable(n) {
