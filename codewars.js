@@ -1,9 +1,3 @@
-  //8kyu multiplication table for number
-
-  function multiTable(n) {
-    return [...Array(10)].map((_,i)=>`${i+1} * ${n} = ${n*i+n}`).join('\n')
-  }
-
   //8kyu cat years, dog years
 
   const humanYearsCatYearsDogYears = humanYears => [
