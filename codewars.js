@@ -1,9 +1,4 @@
 
-//8kyu GrassHopper - messi goals function
-
-function goals () {
-  return [...arguments].reduce((a,b)=>a+b,0);
-}
 
 //8kyu sum without highest and lowest numbers
 
