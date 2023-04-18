@@ -1,14 +1,4 @@
 
-
-  //8kyu reversing words in a string
-
-  function reverse(string) {
-    return string
-      .split(" ")
-      .reverse()
-      .join(" ");
-  }
-
   //8kyu kjeep hydrated!
 
   function litres(time) {
