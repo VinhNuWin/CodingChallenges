@@ -1,10 +1,4 @@
 
-  //8kyu kjeep hydrated!
-
-  function litres(time) {
-    return Math.floor(time/2);
-  }
-
   //8kyu Training JS #2: Basic data types--Number
 
   var v1=50;v2=100,v3=150,v4=200,v5=2,v6=250
