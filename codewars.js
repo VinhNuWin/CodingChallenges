@@ -1,16 +1,6 @@
 
 
-//6kyu-hex-class
 
-class Hex {
-  constructor(value) { this._value = value; }
-  valueOf() { return this._value; }
-  toString() { return '0x' + this._value.toString(16).toUpperCase(); }
-  toJSON() { return this.toString(); }
-  plus(other) { return new Hex(this + other); }
-  minus(other) { return new Hex(this - other); }
-  static parse(string) { return Number.parseInt(string, 16); }
-}
 
 //8kyu-how-good-are-you-really
 
