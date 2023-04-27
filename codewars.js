@@ -2,12 +2,6 @@
 
 
 
-//8kyu-how-good-are-you-really
-
-function betterThanAverage(classPoints, yourPoints) {
-  return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length; 
-}
-
 //8kyu-century-from-year
 
 const century = year => Math.ceil(year/100)
