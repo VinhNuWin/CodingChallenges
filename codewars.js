@@ -1,11 +1,4 @@
 
-
-
-
-//8kyu-century-from-year
-
-const century = year => Math.ceil(year/100)
-
 //7kyu-form-the-minimum
 
 function minValue(values) {
