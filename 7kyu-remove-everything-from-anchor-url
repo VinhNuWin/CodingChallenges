@@ -1,0 +1,5 @@
+//7kyu-remove-everything-from-anchor-url
+
+function removeUrlAnchor(url) {
+  return url.replace(/#.*/, "");
+}
