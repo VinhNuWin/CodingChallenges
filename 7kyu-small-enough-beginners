@@ -1,0 +1,5 @@
+//7kyu-small-enough-beginners
+
+function smallEnough(a, limit) {
+  return a.every(v => v <= limit);
+}
