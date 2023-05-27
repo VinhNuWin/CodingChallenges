@@ -1,9 +1,4 @@
 
-//8kyu-remove-duplicates-from-the-list
-
-function distinct(a) {
-  return [...new Set(a)];
-}
 
 //7kyu-find-the-stray-number
 
