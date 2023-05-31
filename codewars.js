@@ -1,10 +1,28 @@
 
 
+//8kyu-regular-ball-super-ball
 
+class Ball {
+  constructor(ballType = "regular") {
+    this.ballType = ballType;
+  }
+}
 
 //8kyu-sentence-smash
 
 function smash(words) {
   "use strict";
   return words.join(" ");
+}
+
+//8kyu-grasshopper-function-syntax-debugging
+
+function main(verb, noun) {
+  return `${verb}${noun}`;
+}
+
+//8kyu-abbreviate-a-two-work-name
+
+function abbrevName(name){
+  return name.split(' ').map(x => x.substr(0, 1).toUpperCase()).join('.');
 }
