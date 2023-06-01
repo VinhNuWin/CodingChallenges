@@ -1,12 +1,6 @@
 
 
-//8kyu-regular-ball-super-ball
 
-class Ball {
-  constructor(ballType = "regular") {
-    this.ballType = ballType;
-  }
-}
 
 //8kyu-sentence-smash
 
