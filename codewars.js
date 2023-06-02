@@ -2,12 +2,7 @@
 
 
 
-//8kyu-sentence-smash
 
-function smash(words) {
-  "use strict";
-  return words.join(" ");
-}
 
 //8kyu-grasshopper-function-syntax-debugging
 
