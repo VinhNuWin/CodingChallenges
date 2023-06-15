@@ -27,20 +27,5 @@ function productFib(prod) {
     return s.replace(/[aeoiu]/gi, "!");
   }
 
-  //6kyu-multiplication-table
-  multiplicationTable = function(size) {
-    let arr = [];
-    for (let i = 1; i <= size; i++) {
-      let tempArr = [];
-      for (let j = 1; j <= size; j++) {
-        tempArr.push(i * j);
-      }
-      arr.push(tempArr);
-    }
-    return arr;
-  };
 
-  //8kyu-grasshopper-terminal-game-move-function
-  function move (position, roll) {
-    return position + roll * 2
-  }
+
