@@ -17,10 +17,6 @@ function productFib(prod) {
     }
   }
 
-  //8kyu-training-js-#5:basic-config-types
-  function animal(obj){
-    return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
-  }
-
+  
  
 
