@@ -22,10 +22,5 @@ function productFib(prod) {
     return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
   }
 
-  //8kyu-Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence
-  function replace(s) {
-    return s.replace(/[aeoiu]/gi, "!");
-  }
-
-
+ 
 
