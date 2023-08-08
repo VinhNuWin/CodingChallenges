@@ -1,9 +1,20 @@
-function evaporator(content, evap_per_day, threshold) {
-  var result = 0;
-  var percentage = 100;
-  while (percentage > threshold) {
-    percentage = percentage - percentage * (evap_per_day / 100);
-    result += 1;
-  }
-  return result;
+// 8lyu-add-length
+
+function addLength(str) {
+  return str.split(" ").map((word) => `${word} ${word.length}`);
+}
+
+//6kyu-reverse-rotate
+
+function revrot(str, sz) {
+  if (sz < 1 || sz > str.length) return "";
+
+  let reverse = (s) => s.split("").reverse().join("");
+  let rotate = (s) => s.slice(1) + s.slice(0, 1);
+  let sum_cubes = (c) => c.split("").reduce((a, b) => a + b ** 3, 0);
+
+  return str
+    .match(new RegExp(".{" + sz + "}", "g"))
+    .map((c) => (sum_cubes(c) % 2 ? rotate(c) : reverse(c)))
+    .join("");
 }
