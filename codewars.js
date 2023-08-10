@@ -1,9 +1,3 @@
-// 8lyu-add-length
-
-function addLength(str) {
-  return str.split(" ").map((word) => `${word} ${word.length}`);
-}
-
 //6kyu-reverse-rotate
 
 function revrot(str, sz) {
