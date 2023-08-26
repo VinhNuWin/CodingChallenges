@@ -1,0 +1,3 @@
+function factorial(n) {
+  // Calculate the factorial here
+}
