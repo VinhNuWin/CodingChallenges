@@ -1,13 +1,3 @@
-//8kyu-if-you-cant-sleep-just-count-sheep
-
-var countSheep = function (num) {
-  let str = "";
-  for (let i = 1; i <= num; i++) {
-    str += `${i} sheep...`;
-  }
-  return str;
-};
-
 //6kyu-title-case
 
 function titleCase(title, minorWords) {
