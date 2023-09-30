@@ -1,0 +1,7 @@
+// 8kyu-TrainingJS-#1:create-you-first-JS-function-and-print-HelloWorld
+
+function helloWorld() {
+  var str;
+  console.log("Hello World!");
+  ("Hello World!");
+}
