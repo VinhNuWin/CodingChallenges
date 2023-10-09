@@ -1,15 +1,3 @@
-// 8kyu-grasshopper-array-mean
-
-var findAverage = function (nums) {
-  return nums.reduce((a, b) => a + b, 0) / nums.length;
-};
-
-// 8kyu-remove-first-and-last-character-part-2
-
-function array(arr) {
-  return arr.split(",").slice(1, -1).join(" ") || null;
-}
-
 //8kyu-price-of-mangoes
 
 function mango(quantity, price) {
