@@ -1,10 +1,3 @@
-//8kyu-price-of-mangoes
-
-function mango(quantity, price) {
-  let q = Math.floor(quantity / 3);
-  return (quantity - q) * price;
-}
-
 //6kyu-encrypt-this
 
 var encryptThis = function (str) {
