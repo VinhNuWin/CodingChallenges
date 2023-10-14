@@ -1,17 +1,3 @@
-//8kyu rock paper scissors
-
-const rps = (p1, p2) => {
-  if (p1 === "scissors" && p2 === "paper") return `Player 1 won!`;
-  if (p1 === "paper" && p2 === "rock") return `Player 1 won!`;
-  if (p1 === "rock" && p2 === "scissors") return `Player 1 won!`;
-  if (p1 === "paper" && p2 === "scissors") return `Player 2 won!`;
-  if (p1 === "rock" && p2 === "paper") return `Player 2 won!`;
-  if (p1 === "scissors" && p2 === "rock") return `Player 2 won!`;
-  if (p1 === "scissors" && p2 === "scissors") return `Draw!`;
-  if (p1 === "paper" && p2 === "paper") return `Draw!`;
-  if (p1 === "rock" && p2 === "rock") return `Draw!`;
-};
-
 //8kyu Grasshopper - Terminal game combat function
 
 function combat(health, damage) {
@@ -42,4 +28,24 @@ function stairsIn20(s) {
       .reduce((arr, day) => arr.concat(...day), [])
       .reduce((total, stairs) => total + stairs, 0) * 20
   );
+}
+
+//7kyu-love-vs-friendship
+
+const wordsToMarks = (s) =>
+  [...s].reduce((res, c) => (res += c.charCodeAt() - 96), 0);
+
+//7kyu alternate capitalization
+
+function capitalize(s) {
+  return [
+    s
+      .split("")
+      .map((v, i) => (i % 2 == 0 ? v.toUpperCase() : v.toLowerCase()))
+      .join(""),
+    s
+      .split("")
+      .map((v, i) => (i % 2 !== 0 ? v.toUpperCase() : v.toLowerCase()))
+      .join(""),
+  ];
 }
