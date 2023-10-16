@@ -1,9 +1,3 @@
-//8kyu Grasshopper - Terminal game combat function
-
-function combat(health, damage) {
-  return health < damage ? 0 : health - damage;
-}
-
 //7kyu odd or even
 
 function oddOrEven(array) {
