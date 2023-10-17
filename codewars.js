@@ -1,11 +1,3 @@
-//7kyu odd or even
-
-function oddOrEven(array) {
-  return array.reduce((start, next) => start + next, 0) % 2 == 0
-    ? `${"even"}`
-    : `${"odd"}`;
-}
-
 //8kyu the feast of many beasts
 
 function feast(beast, dish) {
