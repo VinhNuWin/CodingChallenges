@@ -1,11 +1,3 @@
-//8kyu the feast of many beasts
-
-function feast(beast, dish) {
-  return (
-    beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1]
-  );
-}
-
 //8kyu how many stairs will suzuki climb in 20 years
 
 function stairsIn20(s) {
