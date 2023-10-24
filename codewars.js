@@ -8,11 +8,6 @@ function stairsIn20(s) {
   );
 }
 
-//7kyu-love-vs-friendship
-
-const wordsToMarks = (s) =>
-  [...s].reduce((res, c) => (res += c.charCodeAt() - 96), 0);
-
 //7kyu alternate capitalization
 
 function capitalize(s) {
