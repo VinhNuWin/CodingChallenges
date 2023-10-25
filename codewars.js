@@ -1,13 +1,3 @@
-//8kyu how many stairs will suzuki climb in 20 years
-
-function stairsIn20(s) {
-  return (
-    s
-      .reduce((arr, day) => arr.concat(...day), [])
-      .reduce((total, stairs) => total + stairs, 0) * 20
-  );
-}
-
 //7kyu alternate capitalization
 
 function capitalize(s) {
