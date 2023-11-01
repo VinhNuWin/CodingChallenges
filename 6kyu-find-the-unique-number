@@ -1,0 +1,6 @@
+//6kyu-find-the-unique-number
+
+function findUniq(arr) {
+  return +arr.filter((value) => {
+    return arr.indexOf(value) == arr.lastIndexOf(value);
+  });
