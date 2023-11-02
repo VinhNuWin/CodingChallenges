@@ -1,16 +1,3 @@
-
-}
-
-//7kyu-sum-of-the-first-nth-of-series
-
-function SeriesSum(n) {
-  for (var s = 0, i = 0; i < n; i++) {
-    s += 1 / (1 + i * 3);
-  }
-
-  return s.toFixed(2);
-}
-
 //8kyu Formatting decimal places #0
 
 function twoDecimalPlaces(n) {
