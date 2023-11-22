@@ -1,10 +1,20 @@
-//7kyu-Growth-of-a-population
+//7kyu-maximum-length-difference
 
-function nbYear(p0, percent, aug, p) {
-  let year = 0;
-  while (p0 < p) {
-    year++;
-    p0 = p0 + p0 * (percent / 100) + aug;
-  }
-  return year;
+function mxdiflg(a1, a2) {
+  if (a1.length === 0 || a2.length === 0) return -1;
+  let l1 = a1.map((str) => str.length);
+  let l2 = a2.map((str) => str.length);
+  return Math.max(
+    Math.max(...l1) - Math.min(...l2),
+    Math.max(...l2) - Math.min(...l1)
+  );
+}
+
+//7kyu-mumbling
+
+function accum(s) {
+  return s
+    .split("")
+    .map((c, i) => c.toUpperCase() + c.toLowerCase().repeat(i))
+    .join("-");
 }
