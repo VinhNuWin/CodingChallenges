@@ -1,4 +1,4 @@
-//5kyu-Integers:-Recreation-One
+//5kyu-Integers:-Recreation-One-
 
 function listSquared(m, n) {
     let arr = []

@@ -1,7 +1,3 @@
-//7kyu-No-Oddities-Here
-
-var noOdds = (values) => values.filter((x) => x % 2 === 0);
-
 //7kyu-the-coupon-code
 
 function checkCoupon(enteredCode, correctCode, currentDate, expirationDate) {
